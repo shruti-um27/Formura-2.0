@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: lightgrey;
+    font-size: larger;
+
+}
+h1,h2,h3,h4,h5,h6,p,span,ul,li,a,div{
+    margin: 0;
+    padding: 0;
+    
+}
+div{
+    background-color: white;
+}
+.container{
+    background-color: lightgrey;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+}
+
+/* left section starts here */
+.left{
+   min-width: 300px;
+    height:auto;   
+}
+.left .blog-section span{
+    border-bottom: 2px solid #18d26e;
+    color: black;
+    font-weight: bolder;
+}
+.left .blog-section {
+    padding: 24px;
+}
+.left .blog-section ul{
+    list-style-type: none;
+    color: black;
+    margin-top: 15px;
+} 
+.left .blog-section li{
+    margin-top: 10px;
+}
+
+.left .community-section {
+    padding: 24px;
+}
+
+.left .community-section ul{
+    list-style-type: none;
+    color: black;
+}
+.left .community-section ul{
+    list-style-type: none;
+    color: black;
+    margin-top: 15px;
+} 
+.left .community-section li{
+    margin-top: 10px;
+}
+.left .community-section span{
+    border-bottom: 2px solid #18d26e;
+    color: black;
+    font-weight: bolder;
+
+}
+.dash{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    background-color: #18d26e;
+    color: white;
+}
+/* right section starts here  */
+.right{
+    min-width: 300px;
+    padding: 24px;
+    height: auto;
+    border-radius: 10px;
+    
+}
+.right .small-block{
+    padding: 12px 12px 12px 12px;
+
+}
+.right .right-info.small-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right .small-block h4{
+    font-size: 34px;
+    font-weight: 400;
+    
+}
+.right .small-block p{
+   color: gray;
+    
+}
+.right .sub-count{
+    border:2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 64px;
+    min-height: 200px;   
+}
+.right .right-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 24px 0;
+}
+.sub-count h3{
+    color: gray;
+    text-align: left;
+}
+.sub-count p{
+    color:black;
+    font-weight: bolder;
+    font-size: 64px;
+}
+/* centre section starts here  */
+.center{
+    min-width: 600px;
+    padding: 22px;
+    height: auto;
+    margin: 0 20px;
+    border-radius: 10px;
+}
+.card .card-img img{
+    width:150px ;
+    height: 140px;
+    object-fit: contain;
+}
+.card{
+    display: flex;
+    align-items: center;
+}
+.card .card-content{
+    padding: 12px;
+    color:black;
+    font-weight: bold;
+}
+ .card .card-content span{
+color: rgb(150, 148, 148);
+margin-right: 10px;
+}
