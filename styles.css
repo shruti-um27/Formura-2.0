@@ -9,7 +9,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
     background-color: lightgrey;
-    font-size: larger;
+   
 
 }
 h1,h2,h3,h4,h5,h6,p,span,ul,li,a,div{
@@ -19,13 +19,15 @@ h1,h2,h3,h4,h5,h6,p,span,ul,li,a,div{
 }
 div{
     background-color: white;
+    /* font-size: 34px; */
+    
 }
 .container{
     background-color: lightgrey;
     padding: 12px;
     display: flex;
     justify-content: center;
-    font-size: large;
+
 }
 
 /* left section starts here */
@@ -36,9 +38,17 @@ div{
 .left .blog-section span{
     border-bottom: 2px solid #18d26e;
     color: black;
-    font-weight: bolder;
+    font-size: 24px;
+    font-weight: 600;
     margin-right: 8px;
+    margin-right: 5px;
+    padding: 0;
 }
+.left .blog-section h3{
+    font-size: 24px;
+    font-weight: 600;
+}
+
 .left .blog-section {
     padding: 24px;
 }
@@ -46,9 +56,13 @@ div{
     list-style-type: none;
     color: black;
     margin-top: 15px;
+    font-size: 26px;
+    font-weight: 400;
 } 
 .left .blog-section li{
     margin-top: 10px;
+    font-size: 26px;
+  font-weight:400;
 }
 
 .left .community-section {
@@ -58,20 +72,31 @@ div{
 .left .community-section ul{
     list-style-type: none;
     color: black;
+    font-size: 26px;
+    font-weight: 400;
 }
 .left .community-section ul{
     list-style-type: none;
     color: black;
     margin-top: 15px;
+    font-size: 26px;
+    font-weight: 400;
 } 
 .left .community-section li{
     margin-top: 10px;
+    font-size: 26px;
+  font-weight:400;
 }
 .left .community-section span{
     border-bottom: 2px solid #18d26e;
     color: black;
-    font-weight: bolder;
+    font-size: 24px;
+    font-weight: 600;
 
+}
+.left .community-section h3{
+    font-size: 24px;
+    font-weight: 600;
 }
 .dash{
     display: flex;
@@ -80,11 +105,13 @@ div{
     padding: 12px;
     background-color: #18d26e;
     color: white;
+    font-size: 34 px;
+    font-weight: 700;
 }
 /* right section starts here  */
 .right{
     min-width: 300px;
-    padding: 24px;
+    padding: 14px;
     height: auto;
     border-radius: 10px;
     
@@ -100,11 +127,13 @@ div{
 }
 .right .small-block h4{
     font-size: 34px;
-    font-weight: 400;
+    font-weight: 500;
     
 }
 .right .small-block p{
    color: gray;
+   font-size: 34px;
+   font-weight:500;
     
 }
 .right .sub-count{
@@ -113,23 +142,33 @@ div{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 64px;
+    margin-top: 34px;
     min-height: 200px;   
 }
 .right .right-info{
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     margin: 24px 0;
 }
 .sub-count h3{
+    font-size: 34px;
+    font-weight: 500;
     color: gray;
     text-align: left;
 }
 .sub-count p{
     color:black;
-    font-weight: bolder;
-    font-size: 64px;
+    font-weight: 600;
+    font-size: 34px;
+
+}
+
+.right > h4{
+    margin-top: 8px;
+        font-size: 24px;
+        font-weight: 500;
+
 }
 /* centre section starts here  */
 .center{
@@ -151,9 +190,13 @@ div{
 .card .card-content{
     padding: 12px;
     color:black;
-    font-weight: bold;
+    font-size: 24px;
+    font-weight: 500;
 }
  .card .card-content span{
 color: rgb(150, 148, 148);
 margin-right: 10px;
+}
+.center .pop-blogs h3{
+    font-size: 24px;
 }
